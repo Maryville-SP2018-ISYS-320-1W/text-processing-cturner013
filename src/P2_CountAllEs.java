@@ -23,6 +23,7 @@ public class P2_CountAllEs {
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in );
 		System.out.println("Enter a string? ");
+		String str = input.nextLine();
 		int eCount = 0;
 		System.out.println(str.length());
 		for(int i = 0; i < str.length(); i++){
